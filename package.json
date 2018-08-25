@@ -18,13 +18,13 @@
     "spawn",
     "dot-store"
   ],
-  "author": "cmdland <oss@cmd.land>",
+  "author": "dot-store <oss@dot-store.io>",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/cmdland/dot-store-spawn.git"
+    "url": "git+ssh://git@github.com/dot-store/spawn.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/cmdland/dot-store-spawn#readme",
+  "homepage": "https://github.com/dot-store/spawn#readme",
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.42",
     "node-pty": "^0.7.6"

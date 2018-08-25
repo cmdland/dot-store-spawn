@@ -1,4 +1,4 @@
-# dot-store-spawn
+# @dot-store/spawn
 
 Spawn commands with `dot-store`.
 
@@ -8,7 +8,7 @@ Spawn commands with `dot-store`.
 
 ```js
 import Store from "dot-store"
-import spawn from "dot-store-spawn"
+import spawn from "@dot-store/spawn"
 
 const store = spawn(new Store())
 ```
