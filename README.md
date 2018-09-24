@@ -7,17 +7,15 @@ Spawn commands with `dot-store`.
 ## Create store
 
 ```js
-import Store from "dot-store"
+import dotStore from "dot-store"
 import spawn from "@dot-store/spawn"
 
-const store = spawn(new Store())
+const store = spawn(dotStore())
 ```
 
 ## Spawn a command
 
 ```js
-await store.set("spawn.myApp.command", ["echo", "hi"])
-store.get("spawn.myApp.output") // hi
+await store.spawn("output", "echo", "hi")
+store.get("output") // hi
 ```
-
-Substitute `myApp` for any key you like.
