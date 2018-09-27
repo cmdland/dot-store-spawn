@@ -17,5 +17,12 @@ const store = spawn(dotStore())
 
 ```js
 await store.spawn("output", "echo", "hi")
-store.get("output") // hi
+store.get("output")
+// {
+//   args: ["hi"],
+//   code: 0,
+//   command: "echo",
+//   out: "hi\r\n",
+//   signal: 0
+// }
 ```
