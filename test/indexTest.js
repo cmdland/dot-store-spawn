@@ -13,7 +13,7 @@ test("spawn command", async () => {
     command: "echo",
   })
 
-  expect(store.get("spawn.test")).toEqual({
+  expect(store.get("test")).toEqual({
     args: ["hi"],
     code: 0,
     command: "echo",
@@ -34,7 +34,7 @@ test("spawn command with options", async () => {
     options: { cwd: "/" },
   })
 
-  expect(store.get("spawn.test")).toEqual({
+  expect(store.get("test")).toEqual({
     code: 0,
     command: "pwd",
     cwd: "/",
