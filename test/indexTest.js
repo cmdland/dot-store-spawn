@@ -13,7 +13,7 @@ test("spawn command", async () => {
     command: "echo",
   })
 
-  expect(store.get("test")).toEqual({
+  expect(store.get("test")).toMatchObject({
     args: ["hi"],
     code: 0,
     command: "echo",
@@ -31,10 +31,10 @@ test("spawn command with options", async () => {
 
   await events.spawn("test", {
     command: "pwd",
-    options: { cwd: "/" },
+    cwd: "/",
   })
 
-  expect(store.get("test")).toEqual({
+  expect(store.get("test")).toMatchObject({
     code: 0,
     command: "pwd",
     cwd: "/",

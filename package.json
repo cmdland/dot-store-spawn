@@ -1,19 +1,20 @@
 {
-  "name": "@dot-store/spawn",
+  "name": "dot-spawn",
   "version": "2.3.0",
-  "description": "Glob filename matching with dot-store",
+  "description": "dot-event process spawn operation",
   "keywords": [
-    "spawn",
-    "dot-store"
+    "dot-event",
+    "operation",
+    "spawn"
   ],
-  "author": "dot-store <oss@dot-store.io>",
+  "author": "dot-event <oss@dot-event.io>",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dot-store/spawn.git"
+    "url": "git+ssh://git@github.com/dot-event/spawn.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/dot-store/spawn#readme",
-  "cyclops": {
+  "homepage": "https://github.com/dot-event/spawn#readme",
+  "operations": {
     "git": {},
     "link": {},
     "starter": {},
