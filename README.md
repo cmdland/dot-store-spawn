@@ -1,4 +1,4 @@
-# dot-spawn
+# @dot-event/spawn
 
 dot-event process spawn operation
 

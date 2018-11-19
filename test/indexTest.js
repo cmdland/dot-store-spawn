@@ -1,10 +1,10 @@
 import dotEvent from "dot-event"
-import dotStore from "dot-store"
+import dotStore from "@dot-event/store"
 import spawn from "../dist/spawn"
 
 test("spawn command", async () => {
   const events = dotEvent()
-  const store = dotStore(events)
+  const store = dotStore({ events })
 
   spawn({ events, store })
 
@@ -25,7 +25,7 @@ test("spawn command", async () => {
 
 test("spawn command with options", async () => {
   const events = dotEvent()
-  const store = dotStore(events)
+  const store = dotStore({ events })
 
   spawn({ events, store })
 
