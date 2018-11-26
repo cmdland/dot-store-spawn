@@ -14,9 +14,13 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/dot-event/spawn#readme",
+  "bin": {
+    "dot-spawn": "./bin/dot-spawn"
+  },
   "operations": {
     "git": {},
     "link": {},
+    "spawn": {},
     "starter": {},
     "version": {}
   },
@@ -34,6 +38,10 @@
   ],
   "dependencies": {
     "@babel/runtime": "7.1.2",
+    "@dot-event/log": "0.13.0",
+    "@dot-event/task": "1.11.5",
+    "chalk": "^2.4.1",
+    "dot-event": "2.12.4",
     "node-pty": "0.7.8"
   },
   "devDependencies": {

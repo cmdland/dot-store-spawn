@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+const dotEvent = require("dot-event").default
+const dotStore = require("@dot-event/store").default
+const dotTask = require("@dot-event/task").default
+
+const dotSpawn = require("../").default
+
+const events = dotEvent()
+
+dotSpawn({ events })
+dotStore({ events })
+dotTask({ events })
+
+events
+  .task({
+    argv: process.argv.slice(2),
+    op: "spawn",
+    path: process.cwd(),
+  })
+  .catch(function(e) {
+    console.error(e)
+    process.exit(1)
+  })
