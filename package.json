@@ -39,8 +39,8 @@
   "dependencies": {
     "@babel/runtime": "7.1.2",
     "@dot-event/log": "0.13.1",
-    "@dot-event/status": "0.0.1",
-    "@dot-event/task": "1.11.6",
+    "@dot-event/status": "0.0.2",
+    "@dot-event/task": "1.11.7",
     "dot-event": "2.12.5",
     "node-pty": "0.7.8"
   },
