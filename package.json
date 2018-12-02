@@ -40,7 +40,7 @@
     "@babel/runtime": "7.1.5",
     "@dot-event/log": "0.13.2",
     "@dot-event/status": "0.0.3",
-    "@dot-event/task": "1.11.8",
+    "@dot-event/task": "1.11.9",
     "dot-event": "2.12.6",
     "node-pty": "0.7.8"
   },
