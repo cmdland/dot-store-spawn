@@ -17,31 +17,8 @@
   "bin": {
     "dot-spawn": "./bin/dot-spawn"
   },
-  "operations": {
-    "git": {},
-    "link": {},
-    "spawn": {},
-    "starter": {},
-    "version": {}
-  },
-  "starters": [
-    "basics",
-    "babel",
-    "babel-node",
-    "babel-scripts",
-    "eslint",
-    "husky",
-    "jest",
-    "jest-node",
-    "jest-scripts",
-    "watchman-babel"
-  ],
   "dependencies": {
     "@babel/runtime": "7.2.0",
-    "@dot-event/log": "0.13.8",
-    "@dot-event/status": "0.0.8",
-    "@dot-event/task": "1.11.29",
-    "dot-event": "2.12.11",
     "node-pty": "0.7.8"
   },
   "devDependencies": {
@@ -53,8 +30,9 @@
     "@babel/preset-env": "7.2.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
-    "dot-event": "2.12.11",
-    "@dot-event/store": "6.0.10",
+    "dot-event": "next2",
+    "@dot-event/log": "next2",
+    "@dot-event/store": "next2",
     "eslint": "5.9.0",
     "eslint-config-prettier": "3.3.0",
     "eslint-plugin-prettier": "3.0.0",
